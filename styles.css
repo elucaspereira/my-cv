@@ -174,10 +174,32 @@ img{
     margin-bottom: 30px;
 
 }
-.experiences ul{
+.experiences-column ul{
     list-style: none;
+    
 }
-
+.experiences li{
+    margin-bottom: 14px;
+}
+.experiences h4{
+    font-size: 13.28px;
+    font-weight: 400;
+    font-style: normal;
+    color: #000;
+}
+.experiences-column h5{
+    font-size: 18.72px;
+    font-weight: 400;
+    font-style: normal;
+    color: #000;
+}
+.experiences-column a{
+    text-decoration: none;
+}
+footer{
+    margin-top: 30px;
+    text-align: right;
+}
 
 
 
