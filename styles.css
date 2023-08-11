@@ -178,8 +178,10 @@ img{
     list-style: none;
     
 }
+
 .experiences li{
     margin-bottom: 14px;
+
 }
 .experiences h4{
     font-size: 13.28px;
@@ -199,6 +201,23 @@ img{
 footer{
     margin-top: 30px;
     text-align: right;
+}
+
+@media (min-width: 992px){
+  .container{
+    display: flex;
+  }
+
+  .information-column img{
+    width: 250px;
+    height: 200px;
+  }
+  .experiences-column .experiences{
+    display: flex;
+  }
+  .experiences-date{
+    width: 300px;
+  }
 }
 
 
