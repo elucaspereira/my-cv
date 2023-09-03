@@ -198,6 +198,26 @@ img{
 .experiences-column a{
     text-decoration: none;
 }
+
+.experiences{
+    display: block;
+    
+}
+
+.min{
+    display: inline;
+    padding: 0px 0px 0px 36px;
+
+    
+}
+.atron{
+    display: inline;
+    padding: 0px 0px 0px 36px;
+    
+}
+
+
+
 footer{
     margin-top: 30px;
     text-align: right;
@@ -215,8 +235,16 @@ footer{
   .experiences-column .experiences{
     display: flex;
   }
+
   .experiences-date{
+    display: flex;
     width: 300px;
+  }
+
+  .experiences-date-atron{
+    display: flex;
+    width: 240px;
+
   }
 }
 
